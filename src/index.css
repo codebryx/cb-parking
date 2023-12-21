@@ -1,0 +1,31 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Your custom styles go here */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-image {
+  background-image: url("../public/assets/images/banner.jpg");
+}
+.car-bg-img {
+  background-image: url("../public/assets/images/carbg.jpg");
+}
+.people-bg-img{
+  background-image: url('../public/assets/images/people.jpg');
+  /* opacity: 65%; */
+}
+.car-parking-bg{
+  background-image: url('../public/assets/images/carbg.jpeg');
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
