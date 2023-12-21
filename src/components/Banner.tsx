@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Banner() {
+const Banner = () => {
   return (
     <div className='bg-image bg-cover bg-center h-35 flex'>
     <div className='flex flex-col w-9/12 m-auto'>
@@ -11,3 +11,4 @@ export default function Banner() {
     </div>
   )
 }
+export default Banner;

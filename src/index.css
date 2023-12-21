@@ -18,6 +18,10 @@ body {
 .car-bg-img {
   background-image: url("../public/assets/images/carbg.jpg");
 }
+.people-bg-img{
+  background-image: url('../public/assets/images/people.jpg');
+  /* opacity: 65%; */
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

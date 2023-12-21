@@ -1,10 +1,12 @@
 // import logo from "./logo.svg";
 import "./App.css";
+import AvailableParkingSection from "./components/AvailableParkingSection";
 import Banner from "./components/Banner";
 import ChooseParkinSection from "./components/ChooseParkinSection";
 import Header from "./components/Header";
 import HourMonthSection from "./components/HourMonthSection";
 import ParkingmadeEasySection from "./components/ParkingmadeEasySection";
+import SatisfiedCustomersSection from "./components/SatisfiedCustomersSection";
 import ServingSection from "./components/ServingSection";
 
 function App() {
@@ -36,6 +38,8 @@ function App() {
       <ParkingmadeEasySection />
       <ChooseParkinSection />
       <ServingSection />
+      <AvailableParkingSection/>
+      <SatisfiedCustomersSection/>
     </div>
   );
 }

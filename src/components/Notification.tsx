@@ -1,7 +1,7 @@
 import React from "react";
 import NotificationAddress from "./NotificationAddress";
 
-export default function Notification() {
+const Notification = () => {
   const icons = [
     `${process.env.PUBLIC_URL}/assets/images/loc.jpg`,
     `${process.env.PUBLIC_URL}/assets/images/mail.jpg`,
@@ -63,3 +63,4 @@ export default function Notification() {
     </div>
   );
 }
+export default Notification;

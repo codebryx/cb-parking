@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ServingCard from "./ServingCard";
+import ServiceCard from "./ServiceCard";
 
 const ServingSection = () => {
   const imgArr = [
@@ -12,6 +13,21 @@ const ServingSection = () => {
     "Hotels $ Hospitality",
     "Operators & Enforcers",
   ];
+  const iconArr = [
+    `${process.env.PUBLIC_URL}/assets/images/home.png`,
+    `${process.env.PUBLIC_URL}/assets/images/home.png`,
+    `${process.env.PUBLIC_URL}/assets/images/home.png`,
+  ]
+  const hArr = [
+    "Search Spaces",
+    "Book Space",
+    "Arrive & Park"
+  ]
+  const textArr = [
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, ipsam asperiores saepe rem porro debitis quod eos voluptatem eligendi aut. Illum quae mollitia vero accusamus laboriosam fuga blanditiis earum dolor.",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, ipsam asperiores saepe rem porro debitis quod eos voluptatem eligendi aut. Illum quae mollitia vero accusamus laboriosam fuga blanditiis earum dolor.",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, ipsam asperiores saepe rem porro debitis quod eos voluptatem eligendi aut. Illum quae mollitia vero accusamus laboriosam fuga blanditiis earum dolor."
+  ]
   const servicesBtns = ["France", "Spain", "Italy", "Portugal", "Germany"];
   const servicesList0 = [
     "Barcelona",
@@ -99,7 +115,7 @@ const ServingSection = () => {
           <ServingCard key={index} img={img} heading={headingArr[index]} />
         ))}
       </div>
-      <div className="pt-12 flex flex-col justify-center items-center">
+      <div className="pt-12 flex flex-col justify-center items-center relative">
         <div className="flex">
           {servicesBtns.map((btn, id) => (
             <button
@@ -119,7 +135,7 @@ const ServingSection = () => {
             </button>
           ))}
         </div>
-        <div className="">
+        <div className="h-65">
           {btn0 && (
             <ul className="list-disc flex flex-wrap w-1/2 m-auto">
               {servicesList0.map((item) => (
@@ -134,6 +150,11 @@ const ServingSection = () => {
               ))}
             </ul>
           )}
+        </div>
+        <div className="absolute flex w-4/5 m-auto border bg-slate-100 top-96">
+            {iconArr.map((icon,index)=>(
+            <ServiceCard key={index} icon={icon} heading={hArr[index]} text={textArr[index]}/>
+            ))}
         </div>
       </div>
     </div>
