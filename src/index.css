@@ -22,6 +22,9 @@ body {
   background-image: url('../public/assets/images/people.jpg');
   /* opacity: 65%; */
 }
+.car-parking-bg{
+  background-image: url('../public/assets/images/carbg.jpeg');
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

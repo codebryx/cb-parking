@@ -5,6 +5,8 @@ import Banner from "./components/Banner";
 import ChooseParkinSection from "./components/ChooseParkinSection";
 import Header from "./components/Header";
 import HourMonthSection from "./components/HourMonthSection";
+import ParkingChargesCard from "./components/ParkingChargesCard";
+import ParkingChargesSection from "./components/ParkingChargesSection";
 import ParkingmadeEasySection from "./components/ParkingmadeEasySection";
 import SatisfiedCustomersSection from "./components/SatisfiedCustomersSection";
 import ServingSection from "./components/ServingSection";
@@ -38,8 +40,14 @@ function App() {
       <ParkingmadeEasySection />
       <ChooseParkinSection />
       <ServingSection />
-      <AvailableParkingSection/>
-      <SatisfiedCustomersSection/>
+      <AvailableParkingSection />
+      <SatisfiedCustomersSection />
+      <div className="relative">
+        <ParkingChargesSection />
+        <div className="absolute right-80 top-24">
+          <ParkingChargesCard />
+        </div>
+      </div>
     </div>
   );
 }
