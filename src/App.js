@@ -42,12 +42,12 @@ function App() {
       <ServingSection />
       <AvailableParkingSection />
       <SatisfiedCustomersSection />
-      <div className="relative">
+      {/* <div className="relative"> */}
         <ParkingChargesSection />
-        <div className="absolute right-80 top-24">
+        {/* <div className="absolute right-80 top-24">
           <ParkingChargesCard />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
