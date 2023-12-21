@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/cb-parking/static/css/main.724d72b4.css",
-    "main.js": "/cb-parking/static/js/main.a253edd2.js",
+    "main.css": "/cb-parking/static/css/main.fbba9e52.css",
+    "main.js": "/cb-parking/static/js/main.6ac7c52e.js",
     "static/js/638.9b96ccf9.chunk.js": "/cb-parking/static/js/638.9b96ccf9.chunk.js",
     "static/media/carbg.jpg": "/cb-parking/static/media/carbg.70baf3dcddd6b3eb06d1.jpg",
     "static/media/people.jpg": "/cb-parking/static/media/people.3ad4e4f0eb82758ff410.jpg",
     "static/media/banner.jpg": "/cb-parking/static/media/banner.60dcebd056ef6f13e1e6.jpg",
     "index.html": "/cb-parking/index.html",
-    "main.724d72b4.css.map": "/cb-parking/static/css/main.724d72b4.css.map",
-    "main.a253edd2.js.map": "/cb-parking/static/js/main.a253edd2.js.map",
+    "main.fbba9e52.css.map": "/cb-parking/static/css/main.fbba9e52.css.map",
+    "main.6ac7c52e.js.map": "/cb-parking/static/js/main.6ac7c52e.js.map",
     "638.9b96ccf9.chunk.js.map": "/cb-parking/static/js/638.9b96ccf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.724d72b4.css",
-    "static/js/main.a253edd2.js"
+    "static/css/main.fbba9e52.css",
+    "static/js/main.6ac7c52e.js"
   ]
 }
