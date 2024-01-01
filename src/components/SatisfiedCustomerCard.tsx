@@ -4,7 +4,7 @@ interface SatisfiedCustomerCardProps {
   img: string;
   name: string;
   city: string;
-  rating: string;
+  rating: string[];
 }
 const SatisfiedCustomerCard: React.FC<SatisfiedCustomerCardProps> = ({
   text,
@@ -23,8 +23,12 @@ const SatisfiedCustomerCard: React.FC<SatisfiedCustomerCardProps> = ({
         <div>
           <h6 className="font-bold">{name}</h6>
           <h6 className="text-blue-700 font-bold text-left">{city}</h6>
-          <div className="w-4">
-            <img src={rating} alt="ratings" />
+          <div className="flex">
+            {rating.map((item) => (
+              <div className="w-4 mr-1">
+                <img src={item} alt="ratings" />
+              </div>
+            ))}
           </div>
         </div>
       </div>

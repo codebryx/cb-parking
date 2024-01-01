@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import HourlyMonthy from "./HourlyMonthy";
 
 const HourMonthSection = () => {
-  const [mBtn,setMBtn]=useState(false);
+  const [mBtn,setMBtn]=useState(true);
   const [hBtn,setHBtn]=useState(false)
 
   const hourBtn = () => {
@@ -30,8 +30,8 @@ console.log("===",hBtn,mBtn)
           </div>
           <HourlyMonthy />
         </div>
-        <div className="w-11/12">
-          <div className="flex justify-center items-center flex-col w-88">
+        <div className="w-10/12">
+          <div className="flex justify-center items-center flex-col w-4/5">
             <span>OR</span>
             <button className="border bg-blue-500 p-3 rounded-full text-white font-bold h-12 w-64">
               Find Parking Near Me

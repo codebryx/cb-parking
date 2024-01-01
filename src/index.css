@@ -25,6 +25,9 @@ body {
 .car-parking-bg{
   background-image: url('../public/assets/images/carbg.jpeg');
 }
+.parking-img{
+  background-image: url('../public//assets/images/parking.jpg');
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

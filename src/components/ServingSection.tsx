@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import ServingCard from "./ServingCard";
 import ServiceCard from "./ServiceCard";
 
@@ -58,8 +58,8 @@ const ServingSection = () => {
     "Valencia",
     "hello",
   ];
-  const [btn0, setBtn0] = useState(true);
-  const [btn1, setBtn1] = useState(false);
+  const [btn0, setBtn0] = useState(false);
+  const [btn1, setBtn1] = useState(true);
   const [btn2, setBtn2] = useState(false);
   const [btn3, setBtn3] = useState(false);
   const [btn4, setBtn4] = useState(false);

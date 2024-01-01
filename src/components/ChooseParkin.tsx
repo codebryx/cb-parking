@@ -34,7 +34,7 @@ const ChooseParkin = () => {
             eligendi aut est dolorem?
           </p>
         </div>
-        <div className="pt-8 flex flex-wrap justify-between w-4/5">
+        <div className="pt-8 flex flex-wrap justify-between">
           {imgArr.map((img,index)=>(
           <ChooseParkinSubSec key={index} img={img} heading={headingArr[index]} text={textArr[index]}/>
           ))}

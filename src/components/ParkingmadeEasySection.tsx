@@ -19,7 +19,7 @@ const ParkingmadeEasySection = () => {
   ];
   return (
     <div>
-      <div className="h-40 flex justify-center items-center flex-col">
+      <div className="h-44 flex justify-center items-center flex-col">
         <span className="text-sky-800 font-bold">Why choose Parkin</span>
         <h1 className="text-4xl">Parking Made Easy</h1>
       </div>

@@ -10,11 +10,11 @@ const ParkingmadeeasyCard: React.FC<ParkingmadeeasyCardProps> = ({cardImg,cardHe
     <div>
       <div className="flex items-center flex-col mr-2">
         <div className="h-32 relative flex justify-center">
-        <div className="w-60 h-32 absolute top-3">
+        <div className="w-60 h-32 absolute bottom-3">
             <img
               src={cardImg}
               alt="cardImg"
-              className="h-32"
+              className="w-full bg-cover bg-center"
             />
           </div>
         </div>

@@ -10,13 +10,13 @@ const ServingCard:React.FC <ServingCardProps> = ({img,heading}) => {
           <img
             src={img}
             alt="ServiceCardImg"
-            className="h-36 w-full"
+            className="w-full bg-cover"
           />
         </div>
         <div className="bg-slate-200 h-24 pt-2">
           <div className="h-20 flex flex-col justify-center w-4/5 m-auto border border-s-blue-900 border-s-2">
             <h6 className="font-bold">{heading}</h6>
-            <button className="text-blue-600 font-bold border rounded-full border-blue-900 p-2 w-32 m-auto">Learn More</button>
+            <button className="text-blue-600 font-bold border rounded-full border-blue-900 py-1 w-36 m-auto">Learn More</button>
           </div>
         </div>
       </div>
