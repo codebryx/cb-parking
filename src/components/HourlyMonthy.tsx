@@ -19,7 +19,7 @@ const HourlyMonthy = () => {
         </div>
         <input
           placeholder="Address, Place, City or Zib Code"
-          className=" h-10 px-2 text-black w-11/12 text-sm"
+          className=" h-10 px-2 text-black w-11/12 text-sm focus:ring-0 outline-none"
           onChange={parkInZibCode}
           value={zidCode}
         />
@@ -28,7 +28,7 @@ const HourlyMonthy = () => {
         <input
           type="time"
           placeholder="FROM"
-          className="w-full border border-gray-300 h-10 p-2 text-slate-400"
+          className="w-full border border-gray-300 h-10 p-2 text-slate-400 focus:ring-0 outline-none"
         />
       </div>
       <div className="w-1/3">

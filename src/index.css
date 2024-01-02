@@ -18,15 +18,74 @@ body {
 .car-bg-img {
   background-image: url("../public/assets/images/carbg.jpg");
 }
-.people-bg-img{
-  background-image: url('../public/assets/images/people.jpg');
+.people-bg-img {
+  background-image: url("../public/assets/images/people.jpg");
   /* opacity: 65%; */
 }
-.car-parking-bg{
-  background-image: url('../public/assets/images/carbg.jpeg');
+.car-parking-bg {
+  background-image: url("../public/assets/images/carbg.jpeg");
 }
-.parking-img{
-  background-image: url('../public//assets/images/parking.jpg');
+.parking-img {
+  background-image: url("../public//assets/images/parking.jpg");
+}
+.carousel-container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.carousel-item {
+  /* width: 100%; */
+}
+
+.arrowL {
+  cursor: pointer;
+  position: absolute;
+  top: 88%;
+  left: 43% !important;
+  width: 30px;
+  height: 30px;
+  transform: translateY(-50%);
+  background-color: white;
+  color: #333;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  user-select: none;
+  border: 1px solid #333;
+}
+.arrowR {
+  cursor: pointer;
+  position: absolute;
+  top: 88%;
+  left: 50% !important;
+  width: 30px;
+  height: 30px;
+  transform: translateY(-50%);
+  background-color: white;
+  color: #333;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  user-select: none;
+  border: 1px solid #333;
+}
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

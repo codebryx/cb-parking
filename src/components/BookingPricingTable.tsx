@@ -64,6 +64,10 @@ const BookingPricingTable = () => {
       pricingParkingObj.map((item,index)=>(
         <BookingPricingTableCard key={index} heading={item.pricingHeading} price={item.pricingPrice} priceHeading={item.pricingPriceHeading} parkingList={item.pricingParkingList}/>
       ))}
+      {yearly &&
+      pricingParkingObj.map((item,index)=>(
+        <BookingPricingTableCard key={index} heading={item.pricingHeading} price={item.pricingPrice} priceHeading={item.pricingPriceHeading} parkingList={item.pricingParkingList}/>
+      ))}
       </div>
     </div>
   );

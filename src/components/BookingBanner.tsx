@@ -50,7 +50,7 @@ const BookingBanner = () => {
                   <input
                     type="text"
                     placeholder="Enter Your Address"
-                    className="text-slate-900 font-bold text-sm"
+                    className="text-slate-900 font-bold text-sm focus:ring-0 outline-none"
                   />
                 </div>
                 <div className="flex w-96 mb-1 rounded">
@@ -59,7 +59,7 @@ const BookingBanner = () => {
                     <input
                       type="datetime-local"
                       placeholder="Select Data & Time"
-                      className="text-slate-900 font-bold text-sm w-40"
+                      className="text-slate-900 font-bold text-sm w-40 focus:ring-0 outline-none"
                     />
                   </div>
                   <div className="h-12 bg-white w-1/2 flex flex-col items-start justify-center pl-4">
@@ -67,7 +67,7 @@ const BookingBanner = () => {
                     <input
                       type="datetime-local"
                       placeholder="Select Data & Time"
-                      className="text-slate-900 font-bold text-sm w-40"
+                      className="text-slate-900 font-bold text-sm w-40 focus:ring-0 outline-none"
                     />
                   </div>
                 </div>
@@ -85,7 +85,7 @@ const BookingBanner = () => {
                   <input
                     type="text"
                     placeholder="Enter Your Address"
-                    className="text-slate-900 font-bold text-sm"
+                    className="text-slate-900 font-bold text-sm focus:ring-0 outline-none"
                   />
                 </div>
                 <div className="flex w-96 mb-1 rounded">
@@ -94,7 +94,7 @@ const BookingBanner = () => {
                     <input
                       type="datetime-local"
                       placeholder="Select Data & Time"
-                      className="text-slate-900 font-bold text-sm w-40"
+                      className="text-slate-900 font-bold text-sm w-40 focus:ring-0 outline-none"
                     />
                   </div>
                   <div className="h-12 bg-white w-1/2 flex flex-col items-start justify-center pl-4">
@@ -102,7 +102,7 @@ const BookingBanner = () => {
                     <input
                       type="datetime-local"
                       placeholder="Select Data & Time"
-                      className="text-slate-900 font-bold text-sm w-40"
+                      className="text-slate-900 font-bold text-sm w-40 focus:ring-0 outline-none"
                     />
                   </div>
                 </div>

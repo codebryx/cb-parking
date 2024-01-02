@@ -107,14 +107,14 @@ const ParkingBanner = () => {
                 <input
                   type="text"
                   placeholder="Address, Place, City or Zib Code"
-                  className="px-2 text-black text-sm"
+                  className="px-2 text-black text-sm focus:right-0 outline-none"
                   onChange={parkInZibCode}
                   value={zidCode}
                 />
               </div>
               <div className="flex w-1/4 bg-white py-1 mr-4 justify-between px-4 items-center">
                 <span className="block text-sm">From</span>
-                <input type="time" />
+                <input type="time" className="focus:right-0 outline-none"/>
               </div>
               <button className="py-2 bg-blue-900 px-8 text-white font-bold text-sm w-1/5">
                 Search Now

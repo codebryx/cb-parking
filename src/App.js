@@ -30,6 +30,8 @@ import ParkingTypes from "./components/ParkingTypes";
 import ParkingEasySec from "./components/ParkingEasySec";
 import ParkingRent from "./components/ParkingRent";
 import ParkingDriveway from "./components/ParkingDriveway";
+import HappyCustomers from "./components/HappyCustomers";
+import TrustedClients from "./components/TrustedClients";
 
 function App() {
   return (
@@ -85,6 +87,10 @@ function App() {
             <ParkingEasySec/>
             <ParkingRent/>
             <ParkingDriveway/>
+            <HappyCustomers/>
+            <TrustedClients/>
+            <BookingPricingTable/>
+            <BookingFooter/>
             </>
           }/>
         </Routes>

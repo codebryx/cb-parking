@@ -29,7 +29,7 @@ const DownloadParkinSection = () => {
           Iusto, error? Doloremque deserunt explicabo excepturi?
         </span>
         <div className="relative pb-4">
-          <input value={mobNumber} onChange={userMobNumber} className="border border-slate-400 p-2 w-4/6 rounded-full pl-3" placeholder="Enter your mobile number"/>
+          <input value={mobNumber} onChange={userMobNumber} className="border border-slate-400 p-2 w-4/6 rounded-full pl-3 focus:ring-0 outline-none" placeholder="Enter your mobile number"/>
           <button className="bg-blue-600 text-white font-bold absolute rounded-full p-2 w-32 right-52 mr-1.5">Send Link</button>
         </div>
         <div className="flex">
